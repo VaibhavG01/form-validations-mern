@@ -13,7 +13,7 @@ const port = process.env.PORT || 5000;
 const _dirname = path.resolve();
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://form-validations-mern.onrender.com",
     methods: "*",
     allowedHeaders: ["Content-Type"],
     credentials: true
